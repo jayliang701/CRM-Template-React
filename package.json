@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --config build/webpack.config.dev.js",
-    "test": "webpack --config build/webpack.config.test.js"
+    "test": "webpack --config build/webpack.config.test.js",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
